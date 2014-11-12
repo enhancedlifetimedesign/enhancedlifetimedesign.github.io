@@ -1,2 +1,70 @@
 /* CSS Document */
 
+header
+{
+	background:#000;
+	min-height:100px;
+	width:100%;
+}
+
+#content
+{
+	background:#FFF;
+}
+
+footer
+{
+	background:#000;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.headerRight
+{
+	height:50px;
+}
+
+.menuItem_md
+{
+	width:100px;
+	height:50px;
+	float:left;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.menuSep_md
+{
+	background:url(../media/images/MenuDivider.jpg) no-repeat;
+	width:3px;
+	height:inherit;
+	float:left;
+}
+
+.menuItemText_md
+{
+	line-height:50px;
+	color:#FFF !important;
+	margin:0 auto;
+}
+
+.centerImage
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+.founders
+{
+	height:inherit !important;
+}
+
+.logo
+{
+	height:100px;
+}
