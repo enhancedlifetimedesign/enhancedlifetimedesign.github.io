@@ -61,7 +61,8 @@ footer
 
 .founders
 {
-	height:inherit !important;
+	width: 100%;
+	height: inherit;
 }
 
 .logo
