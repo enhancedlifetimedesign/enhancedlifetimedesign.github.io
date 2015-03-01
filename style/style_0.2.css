@@ -1,0 +1,172 @@
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+html { background: #000 url(../media/images/bg.jpg); }
+body { font: 14px/1.4 Georgia, serif; }
+article, aside, figure, footer, header, nav, section {display: block; }
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+#wrapper { 
+	width: 900px; 
+	margin: 20px auto 10px; 
+	background: #FFF;
+}
+
+header { 
+	position: relative; 
+	padding: 20px; 
+	background: #222; 
+	height: 80px;
+}
+
+#logo {
+	position: absolute; 
+	top: 25px; 
+	left: 50px;
+	background: url(../media/images/Logo_small.png) no-repeat;  
+	width: 311px; 
+	height: 68px;
+}
+
+nav { 
+	position: absolute; 
+	right: 20px; 
+	bottom: 0px;
+	border-top: #FFF solid 1px;
+	padding-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	font-size: 0;
+	position:relative;
+}
+
+nav ul li {
+	position: relative;
+    font-size: 14;
+    padding: 0px 5px 0px 6px;
+    text-align: center;
+    display: inline-block;
+    border-left: #FFF solid 1px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    position: relative;
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    z-index:2;
+}
+
+nav ul li a:hover, nav ul li a:focus{
+    color: #0CF;
+}
+
+nav ul li a:active {
+	color: #06F;
+}
+
+nav ul li img {
+    position: absolute;
+    z-index:1;
+    top:-10px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+}
+
+nav ul li#current a{
+    color: #FFF;
+}
+
+#content {
+	width: 900px;
+	position: relative;
+}
+
+#stacked-boxes {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: url(../media/images/stacked_boxes_left_small.png) no-repeat bottom left;
+}
+
+#full-image {
+	width: 100%;
+	max-height: 400px;
+}
+
+#content a:link, #content a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+#content a:hover, #content a:focus {
+    color: #0CF;
+}
+
+#content a:active {
+	color: #06F;
+}
+
+footer {
+	width: 900px;
+	background: #222; 
+	color: #FFF;
+}
+
+footer ul {
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+footer ul li {
+	margin-top: 5px;
+}
+
+footer a:link, footer a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+    color: #0CF;
+}
+
+footer a:active {
+	color: #06F;
+}
+
+
+#quick-links {
+	width: 45%;
+	float: left;
+	padding: 20px;
+}
+
+#footer-info {
+	width: 45%;
+	float: right;
+	padding: 20px;
+}
+
+#footer-info p {
+	margin-top: 10px;
+	margin-left: 15px;
+	padding-right: 5px;		
+}
+
+#author {
+	margin: 5px 0 20px 0;
+	float: right;
+	color: #555;
+	font-family:"Comic Sans MS", cursive
+}

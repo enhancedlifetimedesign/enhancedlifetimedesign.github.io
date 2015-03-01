@@ -1,0 +1,86 @@
+/* CSS Document */
+
+#company-info {
+	width: 50%;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+#we-work-for-you {
+	margin: 20px 15px 20px 20px;
+}
+
+#we-work-for-you h1 {
+	margin-left: 30px;
+}
+
+#we-work-for-you p {
+	padding-right: 5px;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+
+#home-products {
+	margin: 20px 15px 20px 20px;
+	position: relative;
+	z-index: 1;
+}
+
+#home-products ul {
+	list-style: none;
+	padding-left: 25px;
+}
+
+#home-products li {
+	background: url(../media/images/right-arrowhead.png) no-repeat left top;
+	padding: 0 0 0 35px;	
+	margin-top: 10px;
+}
+
+#home-products ul a {
+	font-size: 18px;	
+}
+
+#home-products h1 {
+	margin-left: 30px;
+}
+
+#company-updates {
+	width: 50%;
+	float: right;
+}
+
+#company-updates-wrapper {
+	margin: 20px 25px 20px 15px;
+}
+
+#company-updates ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+#company-updates li {
+	position: relative;
+	padding-bottom: 20px;
+	min-height: 210px;
+}
+
+#company-updates li p {
+	padding-left: 130px;
+}
+
+#company-updates li div#date {
+	margin: 5px 0 15px 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+}
+
+#company-updates li img {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: -10px;
+	top: 70px;
+}
