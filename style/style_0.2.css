@@ -167,6 +167,7 @@ footer a:active {
 #author {
 	margin: 5px 0 20px 0;
 	float: right;
-	color: #555;
-	font-family:"Comic Sans MS", cursive
+	color: #666;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;	
 }
