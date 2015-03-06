@@ -1,0 +1,98 @@
+/* CSS Document */
+
+#about-company {
+	width: 900px;
+}
+
+#about-company h1 {
+	padding: 15px 25px 0 25px;
+}
+
+#about-company p {
+	padding: 0 25px 15px 25px;
+	font-size: 16px;
+}
+
+#staff h1 {
+	padding: 15px 25px 0 25px;
+}
+
+#staff ul {
+	list-style: none;
+	margin:	15px 0;
+	position: relative;
+	width: 900px;
+	height: 250px;
+}
+
+#staff ul li {
+	display: block;
+	width: 280px;
+	height: 250px;
+	position: relative;
+	padding: 0 10px;
+	float: left;
+}
+
+#staff ul li h1 {
+	display: block;
+	width: 280px;
+	height: 25px;
+	font-size: 12px;
+	position: absolute;
+	top: 200px;
+	margin: 0 auto;
+	z-index: 1;
+	text-align: center;
+	line-height: 30px;
+	padding: 0;
+}
+
+#staff ul li h2 {
+	display: block;
+	width: 280px;
+	height: 25px;
+	font-size: 12px;
+	position: absolute;
+	top: 225px;
+	margin: 0 auto;
+	z-index: 1;
+	text-align: center;
+	line-height: 25px;
+}
+
+#staff ul li img {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50px;
+	z-index: 1;
+}
+
+#location {
+	width: 100%;
+	position: relative;
+}
+
+#location h1 {
+	padding: 15px 25px 0 25px;
+}
+
+#location iframe {
+	width: 65%;
+	position: relative;
+	float: left;
+	padding: 15px;
+}
+
+#location p {
+	width: 25%;
+	position: relative;
+	float: left;
+	padding: 15px;
+}
+
+#location p span {
+	display: block;
+	font-style: italic;
+}

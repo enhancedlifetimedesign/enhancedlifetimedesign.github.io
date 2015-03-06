@@ -19,6 +19,7 @@
 	padding-right: 5px;
 	line-height: 1.5;
 	margin-top: 10px;
+	font-weight: bold;
 }
 
 #home-products {
@@ -68,6 +69,8 @@
 
 #company-updates li p {
 	padding-left: 130px;
+	padding-top: 10px;
+	min-height: 120px;
 }
 
 #company-updates li div#date {
